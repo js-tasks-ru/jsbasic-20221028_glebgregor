@@ -1,4 +1,4 @@
-function sum(m, n) {
-  return m + n;
+function sum1(g, n) {
+  return g + n;
 }
-sum()
+
