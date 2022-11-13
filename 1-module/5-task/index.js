@@ -6,5 +6,4 @@ function truncate(str, maxlength) {
   }
   return str;
 
-
 }
