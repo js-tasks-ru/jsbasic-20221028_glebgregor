@@ -6,10 +6,8 @@ function initCarousel() {
   let styleTransformX = 0;
   let i = 1;
   let transformRight = () =>{
-    console.log(i)
     if(i < slider.children.length){
       slider.style.transform = `translateX(${styleTransformX -= slider.offsetWidth}px`
-      console.log(slider.style.transform)
       i++;
     }
 
@@ -19,10 +17,8 @@ function initCarousel() {
     }
   };
   let transformLeft = () =>{
-    console.log(i)
     if(i <= slider.children.length && i > 1){
       slider.style.transform = `translateX(${styleTransformX += slider.offsetWidth}px`
-      console.log(slider.style.transform)
       i--;
     }
     if(i === 1){

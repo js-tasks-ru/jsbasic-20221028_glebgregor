@@ -2,10 +2,9 @@ function toggleText() {
   let btn = document.querySelector('.toggle-text-button')
   let content = document.querySelector('#text')
   btn.addEventListener('click', () =>{
-    console.log(content.hasAttribute('hidden'))
-    if(content.hasAttribute('hidden') === false){
+    if(!content.hidden){
       content.setAttribute('hidden', '')
-    }else if(content.hasAttribute('hidden') === true){
+    }else if(content.hidden){
       content.removeAttribute('hidden')
     }
   })
