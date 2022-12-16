@@ -53,7 +53,7 @@ export default class StepSlider {
     })
 
     this.elem.addEventListener('click', (ev) =>{
-      if(ev.target.closest('.slider__steps')){
+      if(true){
         console.log('width = ',sliderStepsElem.offsetWidth)
         console.log('id = ',ev.target.dataset.id)
         console.log('раст до спана: ',sliderStepsElem.offsetWidth / (this.steps - 1) * ev.target.dataset.id)
