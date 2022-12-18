@@ -47,10 +47,6 @@ export default class StepSlider {
     arrSpan[0].classList.add('slider__step-active')
     sliderValue.textContent = '2';
     console.log('sliderSpans - ',arrSpan)
-    this.elem.addEventListener('slider-change', (ev)=>{
-        //alert(ev.detail)
-
-    })
 
     this.elem.addEventListener('click', (ev) =>{
       if(true){
